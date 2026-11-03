@@ -2,8 +2,10 @@ name: Daily markets table
 
 on:
   schedule:
-    # 13:15 UTC Mon-Fri = 6:15 AM PDT / 5:15 AM PST, ahead of the 14:00 UTC digest.
-    - cron: "15 13 * * 1-5"
+    # GitHub often starts scheduled jobs 1h+ late, so run well before the 14:00 UTC digest.
+    - cron: "17 9 * * 1-5"
+    # Backup run in case the first one is delayed or fails.
+    - cron: "17 12 * * 1-5"
   workflow_dispatch: {}
 
 permissions:
