@@ -1,4 +1,4 @@
-<!-- generated 2026-11-18 10:12 UTC -->
+<!-- generated 2026-11-18 13:22 UTC -->
 | Name | Ticker | Last close | Day | MTD | YTD | As of |
 |---|---|---|---|---|---|---|
 | S&P 500 | ^GSPC | 7,340.53 | -1.0% | -3.2% | +7.2% | Nov 17 |
